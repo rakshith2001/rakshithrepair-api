@@ -33,7 +33,7 @@ app.use('/notes', require('./routes/noteRoutes'))
 
 
 
-app.all('*', require('./WrongURL/errorworngURL'))
+app.all('*', require('./WrongURL/errorWorngURL'))
 
 
 app.use(errorHandler)
